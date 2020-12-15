@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Command line test 2380fa61-4e8f-4cad-b812-ce261a6b90a7(failed)">
+    <classes>
+      <class name="org.testing.testScript.TC2">
+        <methods>
+          <include name="browserclose"/>
+          <include name="browser"/>
+          <include name="subscription"/>
+        </methods>
+      </class> <!-- org.testing.testScript.TC2 -->
+      <class name="org.testing.testScript.TC3">
+        <methods>
+          <include name="browserclose"/>
+          <include name="browser"/>
+          <include name="library"/>
+        </methods>
+      </class> <!-- org.testing.testScript.TC3 -->
+      <class name="org.testing.testScript.TC1">
+        <methods>
+          <include name="browserclose"/>
+          <include name="browser"/>
+          <include name="trending"/>
+        </methods>
+      </class> <!-- org.testing.testScript.TC1 -->
+    </classes>
+  </test> <!-- Command line test 2380fa61-4e8f-4cad-b812-ce261a6b90a7(failed) -->
+</suite> <!-- Failed suite [Suite] -->
